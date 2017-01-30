@@ -8,22 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		840571A91E265E5A00845BD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840571A81E265E5A00845BD5 /* AppDelegate.swift */; };
-		840571AB1E265E5A00845BD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840571AA1E265E5A00845BD5 /* ViewController.swift */; };
 		840571AE1E265E5A00845BD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840571AC1E265E5A00845BD5 /* Main.storyboard */; };
 		840571B11E265E5A00845BD5 /* Sportium.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 840571AF1E265E5A00845BD5 /* Sportium.xcdatamodeld */; };
 		840571B31E265E5A00845BD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840571B21E265E5A00845BD5 /* Assets.xcassets */; };
 		840571B61E265E5A00845BD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840571B41E265E5A00845BD5 /* LaunchScreen.storyboard */; };
+		840571BE1E266C1800845BD5 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840571BD1E266C1800845BD5 /* DashboardViewController.swift */; };
+		840571C21E266D1B00845BD5 /* LocatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840571C11E266D1B00845BD5 /* LocatorViewController.swift */; };
+		840571C41E266D3000845BD5 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840571C31E266D3000845BD5 /* WebViewController.swift */; };
+		840571C61E266D4C00845BD5 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840571C51E266D4C00845BD5 /* ScannerViewController.swift */; };
+		840571C81E266D6900845BD5 /* TicketResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840571C71E266D6900845BD5 /* TicketResultViewController.swift */; };
+		840571CA1E266D7C00845BD5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840571C91E266D7C00845BD5 /* MapViewController.swift */; };
+		840571CE1E266FE800845BD5 /* JoystickButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840571CD1E266FE800845BD5 /* JoystickButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		840571A51E265E5A00845BD5 /* Sportium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sportium.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		840571A81E265E5A00845BD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		840571AA1E265E5A00845BD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		840571AD1E265E5A00845BD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		840571B01E265E5A00845BD5 /* Sportium.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sportium.xcdatamodel; sourceTree = "<group>"; };
 		840571B21E265E5A00845BD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		840571B51E265E5A00845BD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		840571B71E265E5A00845BD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840571BD1E266C1800845BD5 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		840571C11E266D1B00845BD5 /* LocatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocatorViewController.swift; sourceTree = "<group>"; };
+		840571C31E266D3000845BD5 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		840571C51E266D4C00845BD5 /* ScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		840571C71E266D6900845BD5 /* TicketResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketResultViewController.swift; sourceTree = "<group>"; };
+		840571C91E266D7C00845BD5 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		840571CD1E266FE800845BD5 /* JoystickButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoystickButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,45 @@
 		840571A71E265E5A00845BD5 /* Sportium */ = {
 			isa = PBXGroup;
 			children = (
-				840571A81E265E5A00845BD5 /* AppDelegate.swift */,
-				840571AA1E265E5A00845BD5 /* ViewController.swift */,
+				840571CC1E266F4900845BD5 /* Dashboard */,
+				840571CB1E266DC900845BD5 /* ViewControllers */,
 				840571AC1E265E5A00845BD5 /* Main.storyboard */,
+				840571C01E266C7400845BD5 /* Supporting Files */,
+			);
+			path = Sportium;
+			sourceTree = "<group>";
+		};
+		840571C01E266C7400845BD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				840571B21E265E5A00845BD5 /* Assets.xcassets */,
+				840571A81E265E5A00845BD5 /* AppDelegate.swift */,
 				840571B41E265E5A00845BD5 /* LaunchScreen.storyboard */,
 				840571B71E265E5A00845BD5 /* Info.plist */,
 				840571AF1E265E5A00845BD5 /* Sportium.xcdatamodeld */,
 			);
-			path = Sportium;
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		840571CB1E266DC900845BD5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				840571C11E266D1B00845BD5 /* LocatorViewController.swift */,
+				840571C31E266D3000845BD5 /* WebViewController.swift */,
+				840571C51E266D4C00845BD5 /* ScannerViewController.swift */,
+				840571C71E266D6900845BD5 /* TicketResultViewController.swift */,
+				840571C91E266D7C00845BD5 /* MapViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		840571CC1E266F4900845BD5 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				840571BD1E266C1800845BD5 /* DashboardViewController.swift */,
+				840571CD1E266FE800845BD5 /* JoystickButton.swift */,
+			);
+			name = Dashboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +182,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				840571AB1E265E5A00845BD5 /* ViewController.swift in Sources */,
 				840571A91E265E5A00845BD5 /* AppDelegate.swift in Sources */,
+				840571C61E266D4C00845BD5 /* ScannerViewController.swift in Sources */,
+				840571C21E266D1B00845BD5 /* LocatorViewController.swift in Sources */,
+				840571C81E266D6900845BD5 /* TicketResultViewController.swift in Sources */,
+				840571BE1E266C1800845BD5 /* DashboardViewController.swift in Sources */,
+				840571CE1E266FE800845BD5 /* JoystickButton.swift in Sources */,
+				840571C41E266D3000845BD5 /* WebViewController.swift in Sources */,
 				840571B11E265E5A00845BD5 /* Sportium.xcdatamodeld in Sources */,
+				840571CA1E266D7C00845BD5 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +352,7 @@
 				840571BC1E265E5A00845BD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
